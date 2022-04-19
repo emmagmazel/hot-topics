@@ -1,0 +1,359 @@
+html{
+    font-size:1.2rem; 
+    font-family: 'Bitter', serif;
+    
+}
+h1, h2, h3 {
+    font-family: 'Bitter', serif;
+    font-weight:100;
+}
+h2{
+    font-size: 7rem;
+    padding-right:50rem;
+}
+
+ nav{
+    position:absolute;
+    left:6%;
+    top:18%;
+}
+
+.header{
+    width:100%;
+    height:15rem;
+}
+
+.name, a{
+    font-size: 1.7rem;
+    color:white;
+    left:10%;
+    top:35%;
+
+}
+
+.name, span{
+    color:white;
+    font-weight: 800;
+    padding-left:10rem;
+    padding-top:6rem;
+    left:15%;
+    
+}
+
+body{
+    background-color: rgb(205, 218, 214);
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.container{
+    margin:5rem 1rem;
+}
+
+p, a{
+    font-weight: 300;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.header-img{
+    max-width:100%;
+    height:5rem;
+}
+
+ul a{
+    font-size: 1.3rem;
+    align-items: center;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+.dynamic-content{
+    margin:2rem;
+}
+
+.dynamic-content h2{
+    padding:1rem;
+    font-weight:800;
+    margin-left:2rem;
+    font-size:1.3rem;
+}
+
+.dynamic-content p{
+    margin:1rem;
+    font-size:1rem;
+}
+.dynamic-content figcaption{
+    font-size:0.5rem;
+    margin-left:6rem;
+}
+.flex-container{
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    flex:1;
+    border-radius: 4px;
+    padding: 10px;
+    background: #afc4bb;
+    width: 470px;
+    border: 1px #FAF9F8 solid;
+    align-items: center;
+    
+} 
+
+.figure-img {
+    width: 400px;
+}
+.card{
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    flex:1;
+    border-radius: 4px;
+    padding: 10px;
+    background: #afc4bb;
+    width: 470px;
+    border: 1px #FAF9F8 solid;
+    align-items: center;
+}
+.card img{
+    width:400px;
+}
+.tagline{
+    width:90%;
+    font-weight:800;
+    position:relative;
+    color:white;
+    left:10%;
+    bottom:5%;
+    align-content: center;
+    font-family: 'Bitter', serif;
+}
+.socials{
+    left:80%;
+    padding:0.5rem;
+    align-items: center;
+    line-height: 0.5rem;
+    margin-left:7rem;
+    
+}
+/* ------- MEDIA QUERIES ------ */
+    /* phone and up */
+    
+    @media only screen and (min-width: 480px) {
+        li{
+            display:inline;
+            width:400px;
+            left:2;
+        }
+    }
+/* Landscape phone and up */
+    
+@media only screen and (min-width: 640px) {
+    .name, span{
+    color:white;
+    font-weight: 800;
+    padding-left:10rem;
+    padding-top:6rem;
+    left:15%;
+    }
+    .tagline{
+        width:80%;
+        font-weight:500;
+        position:relative;
+        color:white;
+        left:15%;
+        align-content: center;
+    }
+    .flex-container{
+        display:flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        flex:1;
+        border-radius: 4px;
+        padding: 10px;
+        background: #afc4bb;
+        width: 600px;
+        border: 1px #FAF9F8 solid;
+        align-items: center;
+        
+    } 
+    .flex-container h2{
+        font-size:2rem;
+    }
+    
+    .figure-img {
+        width: 500px;
+    }
+    .card{
+        display:flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        flex:1;
+        border-radius: 4px;
+        padding: 10px;
+        background: #afc4bb;
+        width: 600px;
+        border: 1px #FAF9F8 solid;
+        align-items: center;
+    }
+    .portfolio h2{
+        font-size:2rem;
+        padding-right:7rem;
+    }
+    .card h3{
+        font-size:2rem;
+        font-weight:800;
+    }
+    .card img{
+        width:500px;
+    }
+    nav a{
+        font-size:1.5rem;
+    }
+
+}
+/* Portrait tablet and up */
+    
+@media only screen and (min-width: 768px) {
+    nav {
+        position: relative;
+        left: 10%;
+        top: 45%;
+    }
+    .name, span{
+        color:white;
+        font-weight: 800;
+        padding-left:10rem;
+        padding-top:6rem;
+        left:15%;
+        }
+        .tagline{
+            width:80%;
+            font-weight:500;
+            position:relative;
+            color:white;
+            left:10%;
+            align-content: center;
+        }
+        .flex-container{
+            display:flex;
+            flex-direction: column;
+            flex-wrap:wrap;
+            flex:1;
+            border-radius: 4px;
+            padding: 10px;
+            background: #afc4bb;
+            width: 700px;
+            border: 1px #FAF9F8 solid;
+            align-items: center;
+            
+        } 
+        .flex-container h2{
+            font-size:2rem;
+        }
+        
+        .figure-img {
+            width: 600px;
+        }
+        .card{
+            display:flex;
+            flex-direction: column;
+            flex-wrap:wrap;
+            flex:1;
+            border-radius: 4px;
+            padding: 10px;
+            background: #afc4bb;
+            width: 700px;
+            border: 1px #FAF9F8 solid;
+            align-items: center;
+        }
+        .portfolio h2{
+            font-size:2rem;
+            padding-right:7rem;
+        }
+        .card h3{
+            font-size:2rem;
+            font-weight:800;
+        }
+        .card img{
+            width:600px;
+        }
+        nav a{
+            font-size:1.5rem;
+        }
+    
+    }
+/* Landscape desktop (17”) and up */
+    
+@media only screen and (min-width: 1160px) {
+nav {
+    position: relative;
+    left: 10%;
+    top: 45%;
+}
+.name, span{
+    color:white;
+    font-weight: 800;
+    padding-left:9rem;
+    padding-top:6rem;
+    left:10%;
+    }
+    .tagline{
+        width:90%;
+        font-weight:500;
+        position:relative;
+        color:white;
+        left:10%;
+        bottom:25%;
+        align-content: center;
+    }
+    .flex-container{
+       display: flex;
+       flex-direction: column;
+       columns: 2;
+       grid-row: 3;
+       justify-content: space-between;
+       width:40%;
+        
+    }
+    .flex-container h2{
+        font-size:2rem;
+    }
+    
+    
+    .figure-img {
+        display: flex;
+       flex-direction: column;
+       columns: 2;
+       justify-content: space-between;
+       width:40%;
+    }
+    .card{
+        display: flex;
+       flex-direction: column;
+       columns: 2;
+       justify-content: space-between;
+       width:40%;
+    }
+    .portfolio h2{
+        font-size:2rem;
+        padding-right:7rem;
+    }
+    .card h3{
+        font-size:2rem;
+        font-weight:800;
+    }
+    .card img{
+        display: flex;
+       flex-direction: column;
+       columns: 2;
+       justify-content: space-between;
+       width:40%;
+    }
+    nav a{
+        font-size:1.5rem;
+    }
+
+}
+
+
+
+
+   
